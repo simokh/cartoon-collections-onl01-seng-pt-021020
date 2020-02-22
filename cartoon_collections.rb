@@ -9,11 +9,13 @@ def summon_captain_planet(arr)
   arr.map do |str|
 
     "#{str.capitalize}!"
-  end 
+  end
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(arr) code an argument here
+  arr.any? do |str|
+    str.length > 4
+  end 
 end
 
 def find_the_cheese# code an argument here
