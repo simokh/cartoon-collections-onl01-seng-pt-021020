@@ -8,7 +8,7 @@ end
 def summon_captain_planet(arr)
   arr.map do |str|
 
-    "#{str.capitalizes}!"
+    "#{str.capitalize}!"
 
 end
 
